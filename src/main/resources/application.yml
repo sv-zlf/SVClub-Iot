@@ -1,0 +1,47 @@
+
+server:
+  port: 8080
+
+spring:
+  datasource:
+    name: test
+    url: jdbc:mysql://localhost:3306/iot?characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+  redis:
+    host: localhost
+mqtt:
+  host: tcp://127.0.0.1:1883
+  clientinid: mqttinId
+  clientoutid: mqttoutid
+  topic: virus
+  qoslevel: 1
+  username:  xxx
+  password: yyy
+  # 10s
+  timeout: 10000
+  #20s
+  keepalive: 20
+
+biz:
+  cluster-session-hash-key: "Session:key"
+  heartbeat: 50s
+  port: 1883
+  host: "0.0.0.0"
+  key-store-location:
+  ssl-enable: false
+  key-store-password:
+  so-backlog: 512
+  message-id-prefix: "MQTT:MESSAGEID:"
+  retain-message-prefix: "MQTT:RETAIN:"
+  topic-prefix: "MQTT:TOPIC:"
+  pub-msg-set-prefix: "MQTT:CLIENT:PUBMSG:"
+  pub-rel-msg-set-prefix: "MQTT:CLIENT:PUBRELMSG:"
+  topic-set-key: "MQTT:ALLTOPIC"
+  broker-id: 1
+  enable-cluster: false
+  enable-topic-sub-pub-secure: false
+  enable-inner-cache: false
+  enable-share-topic: true
+  share-sub-strategy: round
