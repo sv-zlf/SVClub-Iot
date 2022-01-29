@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
-@MapperScan("com.ujs.iot.Mapper")
+@MapperScan("com.ujs.iot.dao")
 public class IotApplication {
 
     public static void main(String[] args) throws InterruptedException{

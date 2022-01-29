@@ -4,6 +4,7 @@ import com.ujs.iot.entity.Product;
 import com.ujs.iot.dao.ProductMapper;
 import com.ujs.iot.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -18,7 +19,6 @@ import java.util.List;
 @Service
 public class ProductServiceImpl implements ProductService {
 
-    @Autowired
     ProductMapper productMapper;
 
     @Override
