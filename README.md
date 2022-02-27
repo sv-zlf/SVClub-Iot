@@ -2,7 +2,7 @@
 
 已使用SpingCloud重构该项目，该项目停止维护
 #### SpingCloud代码地址
-前端代码地址: [https://github.com/sv-zlf/SVClub-iot-cloud](https://github.com/sv-zlf/SVClub-iot-cloud) 
+SpingCloud代码地址: [https://github.com/sv-zlf/SVClub-iot-cloud](https://github.com/sv-zlf/SVClub-iot-cloud) 
 
 
 #### 前端代码地址
